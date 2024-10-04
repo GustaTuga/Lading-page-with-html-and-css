@@ -1,0 +1,166 @@
+/* Arquivo reset */
+@import url(../css/reset.css);
+
+/* cor do corpo */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner do site atras da logo  */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 605px;
+    background-image: linear-gradient(#040404, #102735), url('../images/banner.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-bottom: 2px solid #33A8DB;
+}
+
+/* Sombra atrás da logo (pode ser que ela não apareça, mas tem) */
+.logo {
+    filter: drop-shadow(10px 10px 50px  black);
+}
+
+/* Conteudo do Cabeçalho */
+.banner-content {
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+/* fonte do conteudo do cabeçalho */
+h1 {
+    font-weight: 900;
+    color: #33A8DB;
+}
+
+/* quebra de texto  */
+.content {
+    width: 510px;
+    height: 46px;
+    font-weight: 600;
+    font-size: larger;
+    text-align: justify;
+}
+
+/* Ajuste de botton */
+button {
+  color: #31A8DD;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#3BA1CD, #1572B7);
+  border-image-slice: 10;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+
+#course-content  {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+ /* O que vou aprender */
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+/* Colocar o conteudo em forma padrão */
+#course-content {
+    width: 750px;
+    height: 300px;
+    margin: auto;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/* criar efeito de botão com sombra */
+.module {
+    border: 2px solid #33A8DB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #252525;
+    box-shadow: inset -5px 5px 7px black;
+}
+
+/* Colocar as os "modulos" em azul */
+.module span {
+    color: #33A8DB;
+}
+
+/* Colocar a imagem atrás */
+#transform-world {
+    background-image: url('../images/woman-code.png');
+    width: 100%;
+    height: 450px;
+    margin-top: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Raleway", sans-serif;
+    border-top: 2px solid #33A8DB;
+    border-bottom: 2px solid #33A8DB;
+}
+
+/* Posicionar o texto na imagem com sombra */
+#transform-world p {
+    font-size: 40px;
+    color: white;
+    width: 270px;
+    height: 141px;
+    padding: 140px;
+    font-weight: 900;
+    text-shadow: 3px 3px #33A8DB;
+}
+
+/* ajuste no alinhamento do professional-challenghes */
+#professional-challenges {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 72px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* ajuste do footer */
+footer {
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    margin-top: 50px;
+}
+  
+footer .dio-logo {
+    width: 300px;
+}
+  
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+}
